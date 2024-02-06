@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:gravity="center"
+    android:backgroundTint="@color/bg"
+    android:background="@drawable/rounded_corner">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Congrats!! You have passed"
+        android:textColor="@color/bluish_purple"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/score_title"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            app:trackColor="@color/light_purple"
+            tools:progress="60"
+            android:id="@+id/score_progress_indicator"
+            app:trackCornerRadius="8dp"
+            app:trackThickness="8dp"
+            app:indicatorSize="90dp"/>
+
+        <TextView
+            android:id="@+id/score_progress_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:text="50%" />
+
+
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="6 out of 10 questions are correct"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:id="@+id/score_subtitle"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FINISH"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:id="@+id/finish_btn"/>
+
+
+
+
+
+</LinearLayout>
