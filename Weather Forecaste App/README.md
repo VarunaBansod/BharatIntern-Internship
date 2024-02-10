@@ -17,21 +17,19 @@ buildFeatures {
         dataBinding = true
     }
 ```
-</br> </br>
 ## This application needs INTERNET permission to fetch data from api 
 Add following in **AndroidManifest.xml** above *application* : </br>
 ` <uses-permission android:name="android.permission.INTERNET" /> `
-</br> </br>
 
 ## To use lottie animation in you project
-### make "raw" folder to store json files of animation
+### 1. make "raw" folder to store json files of animation
 Follow these steps:<br>
 1. Right click on **res** folder of your project
 2. Go to **New**
 3. Go to **Folder**
 4. Click on **Raw resource folder**
 5. Click on **Finish**
-### Add following in you **.xml** file
+### 2. Add following in you **.xml** file
 ```
 <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView"
