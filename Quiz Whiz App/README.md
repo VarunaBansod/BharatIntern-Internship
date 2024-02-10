@@ -1,4 +1,4 @@
-# Weather Forecast Video and Implementions for this app.
+# Quiz App Video and Implementions for this app.
 https://github.com/VarunaBansod/BharatIntern-Internship/assets/65997106/2965afdc-486a-4850-b4e4-53b3c6f2dd86
 
 ## Gradle Build implementation:
@@ -31,3 +31,16 @@ Follow these steps:<br>
         app:lottie_loop="true" //Ensure animation loops indefinitely,even after animation duration completes.
         app:lottie_rawRes="@raw/sun_json" /> //replace @raw/sun_json with you file path
 ```
+### Links of important kt and xml files:
+1. [MainActivity.kt](https://github.com/VarunaBansod/BharatIntern-Internship/blob/master/Quiz%20Whiz%20App/app/src/main/java/com/example/quizwhizapp/MainActivity.kt)
+2. [QuizActivity.kt](https://github.com/VarunaBansod/BharatIntern-Internship/blob/master/Quiz%20Whiz%20App/app/src/main/java/com/example/quizwhizapp/QuizActivity.kt)
+3. [QuizListAdapter.kt](https://github.com/VarunaBansod/BharatIntern-Internship/blob/master/Quiz%20Whiz%20App/app/src/main/java/com/example/quizwhizapp/QuizListAdapter.kt)
+4. [QuizModel.kt](https://github.com/VarunaBansod/BharatIntern-Internship/blob/master/Quiz%20Whiz%20App/app/src/main/java/com/example/quizwhizapp/QuizListAdapter.kt)
+5. [SplashActivity.kt](https://github.com/VarunaBansod/BharatIntern-Internship/blob/master/Quiz%20Whiz%20App/app/src/main/java/com/example/quizwhizapp/SplashActivity.kt)
+6. [activity_main.xml](https://github.com/VarunaBansod/BharatIntern-Internship/blob/master/Quiz%20Whiz%20App/app/src/main/res/layout/activity_main.xml)
+8. [activity_splash.xml](https://github.com/VarunaBansod/BharatIntern-Internship/blob/master/Quiz%20Whiz%20App/app/src/main/res/layout/activity_splash.xml)
+9. [activity_quiz.xml](https://github.com/VarunaBansod/BharatIntern-Internship/blob/master/Quiz%20Whiz%20App/app/src/main/res/layout/activity_quiz.xml)
+10. [quiz_item_recycler_row.xml](https://github.com/VarunaBansod/BharatIntern-Internship/blob/master/Quiz%20Whiz%20App/app/src/main/res/layout/quiz_item_recycler_row.xml)
+11. [score_dialogue.xml](https://github.com/VarunaBansod/BharatIntern-Internship/blob/master/Quiz%20Whiz%20App/app/src/main/res/layout/score_dialogue.xml)
+12. [AndroidManifest.xml](https://github.com/VarunaBansod/BharatIntern-Internship/blob/master/Quiz%20Whiz%20App/app/src/main/AndroidManifest.xml)
+13. [build.gradle](https://github.com/VarunaBansod/BharatIntern-Internship/blob/master/Quiz%20Whiz%20App/app/build.gradle)
